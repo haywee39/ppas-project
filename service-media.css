@@ -1,0 +1,119 @@
+@media (width < 912px) {
+    .navbar{
+        height: 12vh;
+        width: 100vw;
+      }
+
+      .navbar-brand img{
+        width: 65px;
+        height: 65px;
+        margin-left: 0;
+      }
+
+      /* ************************************************* */
+    #services{
+      padding-top: 5vh;
+      height: 100vh;
+      /* background-color: aqua; */
+    }
+   .our-services{
+    /* padding-top: 10vh; */
+    width: 100vw;
+    height: 85vh;
+    /* background-color: pink; */
+
+   }
+   .our-services p{
+    width: 95vw;
+    height: 75vh;
+    /* background-color: aqua; */
+   }
+   /* ********************************************************* */
+   .our-work{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    gap: 15px;
+    /* background-color: blue; */
+   }
+
+   .parent{
+    width: 320px;
+    height: 410px;
+   }
+   .parent img{
+    width: 100%;
+    height: 100%;
+   }
+   .parent:hover .child{
+    width:280px;
+    height:380px;  
+  }
+  .child p{
+    width: 270px;
+  }
+
+   /* *************************************************************** */
+  .project{
+    /* margin-top: 15vh; */
+    height: auto;
+    /* background-color: orange; */
+  }
+
+  .project-head{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+  }
+  .project-grid{
+    height: auto;
+    margin: 2vh;
+    gap: 10px;
+  }
+  /* ************************************************************* */
+   #reach-out{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .xyz{
+    width: 100vw;
+    height: 50vh;
+  }
+  .men-at-work{
+    height: 50vh;
+    width: 100vw;
+    margin-bottom: 0;
+  }
+
+  .slide-in-image {
+    width: 80vw; /* Adjust to the desired image size */
+    height: 50vh;
+    padding-left: 80px;
+  }
+
+
+    /* ************************************************************** */
+
+    footer{
+      display: flex;
+      width: 100vw;
+      height: 12vh;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .foot{
+      display: flex;
+      width: 100%;
+      height: 100%;
+    }
+  
+
+}

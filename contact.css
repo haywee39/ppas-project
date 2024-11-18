@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  overflow-x: hidden;
+  
+  
+}
+
+/* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
+
+.navbar{
+  position: fixed;
+  height: 13vh;
+  width: 100vw;
+  background: linear-gradient(100deg, #d58936  0%, #69140e 74%);
+}
+
+.navbar-brand img{
+  width: 75px;
+  height: 75px;
+  border-radius: 60px;
+  margin-left: 20px;
+}
+
+/* Align menu items to the right */
+ .navbar-nav {
+  margin-left: auto;
+}
+
+/* Add spacing between menu items */
+.navbar-nav .nav-item {
+  margin-left: .5rem;
+  padding-right: 30px;
+}
+
+.navbar-toggler-icon {
+  background-color: white; 
+}
+
+.navbar-nav .nav-link {
+  position: relative; /* Required for the underline effect */
+  color: white; /* Initial text color */
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
+}
+
+/* Hover text color change */
+.navbar-nav .nav-link:hover {
+  color: #d58936; /* Color on hover */
+}
+
+/* Underline effect on hover */
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #d58936; /* Color of the underline */
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+/* Expanding underline on hover */
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Keep underline on active page */
+.navbar-nav .nav-link.active::after {
+  color: white;
+  width: 100%;
+  left: 0;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+
+/* END: STYLING FOR THE NAVBAR ENDS HERE */
+/* ************************************************* */
+#yes{
+    width: 100vw;
+    height: 90vh;
+}
+
+
+
+
+
+
+
+
+
+
+/* ************************************************************ */
+
+
+
+
+
+footer{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    /* background-color: black; */
+    color: white;  
+    justify-content: right;
+    align-items: center;
+    font-size: 16px;
+    background: linear-gradient(100deg, #69140e 0%, #d58936 74%);
+  }
+  
+  .foot{
+    display: flex;
+    width: 18vw;
+    height: 10vh;
+    color: white;  
+    justify-content: center;
+    place-items: center;
+    font-size: 16px;
+    /* background-color: blue; */
+    
+  }
+  
+  .foot a{
+    color: white;
+    text-decoration: none;  
+  }
+  .foot a:hover{
+    color: red;
+  }
+  
+  .tag{
+   text-shadow:2px 2px 2px grey;
+   animation:bayo 2s ease 1s infinite;
+  }
+  
+  @keyframes bayo{
+  
+   0%{
+      transform:rotateX(-45deg);
+  }
+   50%{
+      transform:rotateY(45deg);
+  }
+  } 
+  

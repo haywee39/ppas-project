@@ -1,0 +1,141 @@
+@media (width < 912px){
+    .navbar{
+        height: 12vh;
+        width: 100vw;
+      }
+
+      .navbar-brand img{
+        width: 65px;
+        height: 65px;
+        margin-left: 0;
+      }
+
+      /* ************************************************* */
+      #home{
+        height: 100vh;
+      }
+      .content{
+        height: 90vh;
+        width: 100vw;
+      }
+
+      .content h1{
+        margin-top: 20px;
+        font-size: 60px;
+        letter-spacing: 3px;
+        text-align: center;
+        word-spacing: 30px;
+        
+      }
+      .content h3{
+        font-size: 25px;
+      }
+      /* ****************************************************** */
+
+      #promo{
+        height: 50vh;
+
+      }
+      /* ******************************************************** */
+      #about{
+        width: 100vw;
+        height: auto;
+      }
+
+      .core-vision-mission{
+        display: flex;
+        flex-direction: column;
+        height: 140vh;
+      }
+      .believe{
+        width: 90vw;
+        height: 32vh;
+      }
+      /* ********************************************************** */
+      .about-ppas-container{
+        margin-top: 5vh;
+        padding-top: 0;
+        height: auto;
+      }
+      .about-ppas-container::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-image: url(./pageswitback/helmet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* opacity: 0.3; */
+    }
+    
+      .texts{
+        width: 95vw;
+        height: 145vh;
+      }
+      .texts img{
+        width: 180px;
+        height: 180px;
+      }
+      .text h1{
+        font-size: 25px;
+      }
+
+      /* ********************************************************* */
+      .project{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+      }
+
+      .lightbox{
+        height: 100vh;
+        width: 100vw;
+       
+      }
+      .lightbox-content {
+        max-width: 95%;
+        max-height: 80%;
+        /* background-color: red; */
+      }
+      /* *************************************************************** */
+
+      #reach-out{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .xyz{
+        width: 100vw;
+        height: 50vh;
+      }
+      .men-at-work{
+        height: 50vh;
+        width: 100vw;
+        margin-bottom: 0;
+      }
+
+      .slide-in-image {
+        width: 80vw; /* Adjust to the desired image size */
+        height: 50vh;
+        padding-left: 80px;
+      }
+      /* ************************************************************** */
+
+      footer{
+        display: flex;
+        width: 100vw;
+        height: 12vh;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .foot{
+        display: flex;
+        width: 100%;
+        height: 100%;
+      }
+    
+}
