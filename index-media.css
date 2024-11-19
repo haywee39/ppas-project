@@ -84,7 +84,7 @@
 
       /* ********************************************************* */
       .project{
-        /* margin-top: 15vh; */
+        margin-top: 10vh;
         height: auto;
         /* background-color: orange; */
       }
@@ -110,14 +110,14 @@
         height: 40vh;
       }
       .lightbox{
-        margin-top: 12vh;
+        margin-top: 10vh;
       }
     
       .lightbox-content {
         /* max-width: 90%; */
         /* max-height: 75%; */
         background-color: black;
-        width: 70vw;
+        width: 85vw;
         height: 55vh;
       }
       /* *************************************************************** */
