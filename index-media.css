@@ -84,20 +84,41 @@
 
       /* ********************************************************* */
       .project{
+        /* margin-top: 15vh; */
+        height: auto;
+        /* background-color: orange; */
+      }
+    
+      .project-head{
+        margin-top: 2vh;
         display: flex;
         flex-direction: column;
+        width: 95vw;
+        height: 60vh;
+        justify-content: center;
+        align-items: center;
+        /* background-color: yellow; */
+      }
+      .project-grid{
         height: auto;
+        margin: 2vh;
+        gap: 20px;
       }
-
+    
+      .project-item{
+        width: 300px;
+        height: 40vh;
+      }
       .lightbox{
-        height: 100vh;
-        width: 100vw;
-       
+        margin-top: 12vh;
       }
+    
       .lightbox-content {
-        max-width: 95%;
-        max-height: 80%;
-        /* background-color: red; */
+        /* max-width: 90%; */
+        /* max-height: 75%; */
+        background-color: black;
+        width: 70vw;
+        height: 55vh;
       }
       /* *************************************************************** */
 
