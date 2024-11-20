@@ -13,10 +13,12 @@
       /* ************************************************* */
        /* ************************************************* */
     #contact{
-      padding-top: 3vh;
+      margin-top: 3vh;
+      /* padding-top: 3vh; */
       height: auto;
     }
    .our-contacts{
+    margin-top: 2vh;
     width: 100vw;
     height: 35vh;
    }
