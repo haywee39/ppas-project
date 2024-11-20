@@ -114,8 +114,6 @@
       }
     
       .lightbox-content {
-        /* max-width: 90%; */
-        /* max-height: 75%; */
         background-color: black;
         width: 85vw;
         height: 55vh;

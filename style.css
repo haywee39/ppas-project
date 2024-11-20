@@ -100,9 +100,7 @@ body{
   background-image: url(./pages/pexels-thisisengineering-19895880.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  /* background-color: #d58936; Fallback color */
-   
+  background-position: center center; 
 }
 
 
@@ -396,14 +394,6 @@ body{
     color: #69140e;
     }
 
-
-/* .project-grid {
-  margin: 5vh;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 25px;
-} */
-
 .project-grid {
   display: flex;
   flex-wrap: wrap;
@@ -444,9 +434,6 @@ body{
 }
 
 .lightbox-content {
-  /* max-width: 100%; */
-  /* max-height: 80%; */
-  /* background-color: red; */
   background-color: black;
   width: 50vw;
   height: 85vh;
@@ -541,7 +528,6 @@ body{
   position: relative;
   width: 150px;
   height: 50px;
-
   font-size: 16px;
   color: #fff;
   background-color: #69140e;

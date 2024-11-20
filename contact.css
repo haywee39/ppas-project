@@ -90,6 +90,60 @@ body{
 
 /* END: STYLING FOR THE NAVBAR ENDS HERE */
 /* ************************************************* */
+#contact{
+  margin-top: 13vh;
+  display: flex;
+  flex-direction:column;
+  width:100vw;
+  height: 40vh; 
+  align-items: center;
+  justify-content: center;
+  animation: conta 3s; 
+  /* background: lightcoral; */
+  
+}
+@keyframes conta {
+  0% {
+      transform: rotateX(0deg) scale(0);
+  }
+
+}
+.our-contacts{
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  height: 35vh;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+} 
+
+.our-contacts h1{
+font-family: fantasy;
+font-size: 35px;
+color: #69140e;
+}
+
+.line{
+  /* margin-top: 5px; */
+  width: 100px;
+  height: 4px;
+  background-color: #69140e;
+}
+
+
+
+.our-contacts p{
+  margin-top: 2vh;
+  text-align: center;
+  width: 55vw;
+  height: 37vh;
+  font-size: 20px;
+  color: #69140e;
+  /* background-color: blue; */
+}
+/* ************************************************** */
 #yes{
     width: 100vw;
     height: 90vh;
