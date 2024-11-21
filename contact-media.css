@@ -30,10 +30,11 @@
    }
    /* ********************************************************* */
    .contact-icons{
-    margin-top: 0;
+    margin-top: 3vh;
     flex-direction: column;
     flex-wrap: nowrap;
     height: 60vh;
+    width: 65vw;
     /* background-color: red; */
    }
    /* ******************************************************* */
@@ -50,29 +51,29 @@
     width: 85vw;
    }
    .cont-form, .maps{
-    width: 80vw;
+    width: 95vw;
     height: 43vh;
     /* background-color: rgb(70, 14, 166); */
     margin-bottom: 40px;
    }
    form input{
     padding-left: 0px;
-    width: 550px;
+    width: 80vw;
     height: 55px;
    }
    textarea{
     padding-left: 0px;
-    width: 550px;
+    width: 80vw;
     height: 250px;
 
    }
    .submit{
-    width: 550px;
+    width: 50vw;
     height: 55px;
    }
    /* ********************************************** */
    .call-bar{
-    width: 85vw;
+    width: 95vw;
    }
 
 
