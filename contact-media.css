@@ -30,50 +30,73 @@
    }
    /* ********************************************************* */
    .contact-icons{
-    margin-top: 3vh;
+    margin-top: 5vh;
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 60vh;
-    width: 65vw;
+    height: 83vh;
+    /* width: 100vw; */
     /* background-color: red; */
    }
+
+   .phone, .whatsapp, .email, .address{
+    /* margin: 8px; */
+    /* display: flex; */
+    width: 90vw;
+    height: 170px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-color: yellow; */
+  }
+  
+  .sub-phone, .sub-whatsapp, .sub-email, .sub-address{
+    /* display: flex; */
+    /* flex-direction: column; */
+    width:420px;
+    height: 100px;
+    /* margin-left: 5px; */
+    /* padding-top: 10px; */
+    /* padding-left: 10px; */
+    /* background-color: red; */
+  }
+  
    /* ******************************************************* */
    #yes-msg{
+    margin-top: 10vh;
     width: 100vw;
-    height: 125vh;
+    height: 155vh;
    }
    .contact-form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 95vh;
-    width: 85vw;
+    height: 143vh;
+    width: 96vw;
    }
    .cont-form, .maps{
-    width: 95vw;
-    height: 43vh;
+    width: 90vw;
+    height: 73vh;
     /* background-color: rgb(70, 14, 166); */
     margin-bottom: 40px;
    }
    form input{
     padding-left: 0px;
-    width: 80vw;
-    height: 55px;
+    width: 85vw;
+    height: 50px;
    }
    textarea{
     padding-left: 0px;
-    width: 80vw;
+    width: 85vw;
     height: 250px;
 
    }
    .submit{
     width: 50vw;
-    height: 55px;
+    height: 50px;
    }
    /* ********************************************** */
    .call-bar{
-    width: 95vw;
+    width: 96vw;
    }
 
 
