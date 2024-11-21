@@ -30,12 +30,11 @@
    }
    /* ********************************************************* */
    .contact-icons{
-    margin-top: 5vh;
+    margin-top: 7vh;
     flex-direction: column;
     flex-wrap: nowrap;
     height: 83vh;
-    /* width: 100vw; */
-    /* background-color: red; */
+
    }
 
    .phone, .whatsapp, .email, .address{
