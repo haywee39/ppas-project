@@ -232,12 +232,12 @@ color:rgb(213,0,0) ;
   justify-content: space-around;
   width: 80vw;
   height: 80vh;
-  /* background: #faf3e0; */
   background-color: #d58936;
 }
 
 .cont-form, .maps{
   display: flex;
+  justify-content: center;
   width: 38vw;
   height: 70vh;
   border-radius: 10px;
@@ -246,7 +246,7 @@ color:rgb(213,0,0) ;
 
 }
 
-form h4{
+form h5{
   font-family: fantasy;
   color: #69140e;
 }
@@ -259,9 +259,9 @@ form input{
   height: 50px;
   border-radius: 6px;
   border: none;
-  font-size: 15px;
+  font-size: 16px;
   padding-left: 15px;
-  background-color: black;
+  background-color: #69140e;
   color: white;
   
 }
@@ -273,7 +273,7 @@ textarea{
   font-size: 15px;
   padding-top: 10px;
   padding-left: 15px;
-  background-color: black;
+  background-color: #69140e;
   color: white;
 }
 
@@ -289,7 +289,9 @@ textarea{
   font-size: 18px;
 }
 .submit:hover{
-  background-color: black;
+  background-color: #d58936;
+  outline: #69140e solid 2px;
+  color: #69140e;
 }
 /* ***************** */
 /* .maps{
@@ -310,18 +312,46 @@ textarea{
 /* ***************************************************** */
 .call-bar{
   width: 80vw;
-  height: 8vh;
+  height: 10vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #69140e;
-  /* word-spacing: 20px; */
+}
+.call-bar:hover{
+  background-color: #d58936;
+}
+
+.call-bar .fa-solid{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  color: #69140e;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
 }
 
 .call-bar a{
+  display: flex;
+  width: 80vw;
+  height: 10vh;
   text-decoration: none;
   color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-bar p{
+  margin-top: 17px;
+  font-size: 15px;
+}
+
+.call-bar a:hover{
+  transform: scale(1.1);
+  transition: transform 0.2s;
+  
 }
 
 
