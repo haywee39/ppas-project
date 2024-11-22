@@ -1,5 +1,5 @@
 @media (width < 912px){
-    .navbar{
+    /* .navbar{
         height: 12vh;
         width: 100vw;
       }
@@ -11,9 +11,36 @@
       }
 
       .dropdown-menu {
-        left: auto; /* Center-align or adjust on smaller screens */
+        left: auto;  Center-align or adjust on smaller screens 
         right: 0;
-    }
+    } */
+    .navbar {
+      height: 12vh;
+      width: 100vw;
+  }
+
+  .navbar-brand img {
+      width: 65px;
+      height: 65px;
+      margin-left: 0;
+  }
+
+  .dropdown-menu {
+      left: auto; /* Align for mobile view */
+      right: 0;
+      background-color: #69140e; /* Add background color */
+      border: none; /* Remove any border if necessary */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for aesthetics */
+  }
+
+  .dropdown-item {
+      color: white; /* Ensure text is readable */
+  }
+
+  .dropdown-item:hover {
+      background-color: #d58936; /* Highlight on hover */
+      color: white;
+  }
 
       /* ************************************************* */
       /* ******************************************************** */
