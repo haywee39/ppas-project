@@ -11,85 +11,66 @@ html{
 body{
   overflow-x: hidden;
   
-  
 }
 /* ************************************************** */
 
 /* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
-.navbar{
+/* Style the navbar */
+.navbar {
   position: fixed;
   height: 13vh;
   width: 100vw;
-  background: linear-gradient(100deg, #d58936  0%, #69140e 74%);
+  background: linear-gradient(100deg, #d58936 0%, #69140e 74%);
 }
 
-.navbar-brand img{
+.navbar-brand img {
   width: 75px;
   height: 75px;
   border-radius: 60px;
   margin-left: 20px;
 }
 
-/* Align menu items to the right */
- .navbar-nav {
-  margin-left: auto;
+.navbar-nav {
+  margin-left: auto; /* Align menu items to the right */
 }
 
-/* Add spacing between menu items */
-.navbar-nav .nav-item {
-  margin-left: .5rem;
+.nav-item {
+  margin-left: 0.5rem;
   padding-right: 30px;
 }
 
-.navbar-toggler-icon {
-  background-color: white; 
-}
-
-.navbar-nav .nav-link {
-  position: relative; /* Required for the underline effect */
-  color: white; /* Initial text color */
+.nav-link {
+  color: white;
   transition: color 0.3s ease;
 }
 
-.navbar-nav .nav-link.active {
+.nav-link:hover {
+  color: #d58936;
+}
+
+.dropdown-menu {
+  position: absolute !important;
+  top: 100%; /* Align dropdown directly below the parent */
+  left: 0; /* Align dropdown with the parent item */
+  background-color: #69140e;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-item {
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #d58936;
   color: white;
 }
 
-/* Hover text color change */
-.navbar-nav .nav-link:hover {
-  color: #d58936; /* Color on hover */
-}
-
-/* Underline effect on hover */
-.navbar-nav .nav-link::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 2px;
-  background-color: #d58936; /* Color of the underline */
-  transition: width 0.3s ease, left 0.3s ease;
-}
-
-/* Expanding underline on hover */
-.navbar-nav .nav-link:hover::after {
-  width: 100%;
-  left: 0;
-}
-
-/* Keep underline on active page */
-.navbar-nav .nav-link.active::after {
-  color: white;
-  width: 100%;
-  left: 0;
-}
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
 /* END: STYLING FOR THE NAVBAR ENDS HERE */
-
-
 
 /* START- ABOUT SECTION BEGINS HERE */
 #about{
@@ -111,7 +92,6 @@ body{
     justify-content: center;
     align-items: center;
     /* background-color: #f8de7e; */
-
   }
   
   .our-company h1{
@@ -138,7 +118,7 @@ body{
   background-color: #69140e;
 }
 /*end- core-vision-mission div */
-
+/* ************************************************* */
 .believe{
   display: flex;
   flex-direction: column;
@@ -166,9 +146,7 @@ body{
 @keyframes fade-in {
   to {scale: 0; opacity: 0;}
 }
- 
-  
-  
+/* **************************************************** */ 
   /*start- ppas description styling */
   .about-ppas-container{
     margin-top: 40px;
@@ -239,7 +217,7 @@ body{
     font-size: 20px;
     color: #69140e;
   }
-  
+/* **************************************************   */
   
   
   /* <!--START THE TEAM PROFILE BEGIN HERE--> */
@@ -340,7 +318,7 @@ body{
   }
   
   /* <!--END THE TEAMS PROFILE END HERE   --> */
-
+/* *************************************************** */
   #client{
     padding-top: 5vh;
     display: flex;
@@ -376,10 +354,8 @@ body{
 
 /* ******************************************************************** */
   .man{
-    /* width: min(1200px, 50vw); */
     width: 100vw;
     height: auto;
-    /* margin: 10vh; */
     /* background-color: yellow; */
 }
 .slider{
@@ -472,7 +448,6 @@ body{
   width: 35vw;
   height: 80vh;
   gap: 15px;
-  /* background-color: #f3ba7e; */
   padding-left: 20px;
  
 }
@@ -504,7 +479,6 @@ body{
   height: 80vh;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 16vh; */
   /* background-color: #d58936; */
 }
 
@@ -526,7 +500,6 @@ body{
   position: relative;
   width: 150px;
   height: 50px;
-
   font-size: 16px;
   color: #fff;
   background-color: #69140e;

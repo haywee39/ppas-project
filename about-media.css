@@ -10,6 +10,11 @@
         margin-left: 0;
       }
 
+      .dropdown-menu {
+        left: auto; /* Center-align or adjust on smaller screens */
+        right: 0;
+    }
+
       /* ************************************************* */
       /* ******************************************************** */
       #about{
@@ -43,7 +48,6 @@
         background-image: url(./pageswitback/helmet.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        /* opacity: 0.3; */
     }
     
       .texts{

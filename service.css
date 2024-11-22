@@ -86,8 +86,6 @@ body{
 }
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&& */
-
-
 /* END: STYLING FOR THE NAVBAR ENDS HERE */
 
 #services{
@@ -127,7 +125,6 @@ color: #69140e;
 }
 
 .line{
-  /* margin-top: 5px; */
   width: 100px;
   height: 4px;
   background-color: #69140e;
@@ -182,10 +179,7 @@ color: #69140e;
   align-items: center;
   justify-content: center;
   width:360px;
-  height:450px;
-  /* border: solid #69140e 1px; */
-  
-    
+  height:450px;   
 }
 .parent img{
   width: 360px;
@@ -301,8 +295,6 @@ color: #69140e;
 }
 
 .lightbox-content {
-  /* max-width: 90%; */
-  /* max-height: 75%; */
   background-color: black;
   width: 50vw;
   height: 85vh;
@@ -433,7 +425,7 @@ color: #69140e;
 
 .fancy-button span {
   position: relative;
-  z-index: 1; /* Keep text on top */
+  z-index: 1; 
 }
 
 /* ************************************************************ */
@@ -446,7 +438,6 @@ footer{
   display: flex;
   width: 100vw;
   height: 10vh;
-  /* background-color: black; */
   color: white;  
   justify-content: right;
   align-items: center;
@@ -462,8 +453,6 @@ footer{
   justify-content: center;
   place-items: center;
   font-size: 16px;
-  /* background-color: blue; */
-  
 }
 
 .foot a{
