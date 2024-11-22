@@ -1,19 +1,4 @@
 @media (width < 912px){
-    /* .navbar{
-        height: 12vh;
-        width: 100vw;
-      }
-
-      .navbar-brand img{
-        width: 65px;
-        height: 65px;
-        margin-left: 0;
-      }
-
-      .dropdown-menu {
-        left: auto;  Center-align or adjust on smaller screens 
-        right: 0;
-    } */
     .navbar {
       height: 12vh;
       width: 100vw;
