@@ -427,6 +427,10 @@ color: #69140e;
   position: relative;
   z-index: 1; 
 }
+.fancy-button a{
+  text-decoration: none;
+  color: white;
+}
 
 /* ************************************************************ */
 
