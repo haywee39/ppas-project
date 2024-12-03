@@ -207,9 +207,14 @@ text-decoration: none;
 color: white;
 }
 
+.contact-icons i{
+  color: white ;
+  }
+  
 .contact-icons i:hover{
 background-color: black ;
 }
+
 
 .contact-icons p:hover{
 color:rgb(213,0,0) ;

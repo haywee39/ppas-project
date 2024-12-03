@@ -1,3 +1,36 @@
+@media (width < 768px){
+  #about{
+    width: 100vw;
+    height: auto;
+  }
+  .about-ppas-container{
+    margin-top: 8vh;
+    padding-top: 0;
+    height: 350vh;
+    /* background-color: orange; */
+  }
+
+  .texts{
+    height: 180vh;
+    width: 80vw;
+    /* background-color: blue; */
+  }
+
+  .project-head{
+    margin-top:20vh;
+    height: 35vh;
+    /* background-color: aqua; */
+  }
+
+}
+
+
+
+
+
+
+
+
 @media (width < 912px){
   .navbar {
     height: 12vh;
@@ -73,11 +106,11 @@
       .core-vision-mission{
         display: flex;
         flex-direction: column;
-        height: 140vh;
+        height: 145vh;
       }
       .believe{
-        width: 90vw;
-        height: 32vh;
+        width: 95vw;
+        height: 35vh;
       }
       /* ********************************************************** */
       .about-ppas-container{

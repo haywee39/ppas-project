@@ -48,12 +48,12 @@
       .core-vision-mission{
         display: flex;
         flex-direction: column;
-        height: 140vh;
+        height: 145vh;
         width: 100vw;
       }
       .believe{
-        width: 90vw;
-        height: 32vh;
+        width: 95vw;
+        height: 35vh;
       }
       /* ********************************************************** */
       .about-ppas-container{

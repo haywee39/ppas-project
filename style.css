@@ -264,7 +264,7 @@ body{
   justify-content: space-evenly;
   align-items: center;
   width: 100vw;
-  height: 55vh;
+  height: 68vh;
   color: white;
   background-color: #69140e;
 }
@@ -273,8 +273,8 @@ body{
 .believe{
   display: flex;
   flex-direction: column;
-  height: 40vh;
-  width:30vw ;
+  height: 50vh;
+  width:38vw ;
   text-align:center;
   justify-content: center;
   background-color: #d58936;
@@ -285,7 +285,7 @@ body{
 }
 
 .believe p{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #about .core-vision-mission > .believe{
@@ -368,14 +368,16 @@ body{
   width: 100vw;
   height: 140vh;
   text-align: center;
+  /* background-color: orange; */
 }
 
 
 .project-head{
+  margin-top: 5vh;
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 25vh;
+  height: 30vh;
   justify-content: center;
   align-items: center;
   /* background-color: red; */
@@ -463,9 +465,16 @@ body{
   right: 0;
   left: 0;
   bottom: 0;  
+  background-image: url(/pages/ladywriting-removebg-preview.png);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: 0.3;
 }
 
 .xyz{
+  margin-top: 20px;
   position: relative;
   display: flex;
   flex-direction: column;
